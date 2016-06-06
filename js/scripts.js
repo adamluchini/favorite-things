@@ -5,8 +5,9 @@ $(document).ready(function(){
     var q2 = $("input#q2").val();
     var q3 = $("input#q3").val();
     var array = [q1, q2, q3];
+    var newArray = [array[1], array[2], array[0]];
 
-    $("#array").text(array);
+    $("#result").text(newArray);
 
     // return array;
 
