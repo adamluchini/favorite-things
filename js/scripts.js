@@ -6,8 +6,10 @@ $(document).ready(function(){
     var q3 = $("input#q3").val();
     var array = [q1, q2, q3];
     var newArray = [array[1], array[2], array[0]];
+    newArray.push(array[1], array[2], array[0]);
 
     $("#result").text(newArray);
+  
 
     // return array;
 
